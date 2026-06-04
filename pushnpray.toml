@@ -1,4 +1,4 @@
-project-id = 'e6e19f01-1097-4083-bed4-618fe564a82c'
+project-id = '1c4e7daf-a94c-4a9b-81fc-48760c02bf10'
 repository-url = 'https://github.com/RichardDorian/test-pushnpray.git'
 server = 'http://localhost:4000/v1/'
 
@@ -6,4 +6,3 @@ server = 'http://localhost:4000/v1/'
 [[apps.docker]]
 name = "nginx"
 image = "docker.io/library/nginx:latest"
-
