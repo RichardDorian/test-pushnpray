@@ -6,9 +6,9 @@ server = 'http://localhost:4000/v1'
 [[services.postgres]]
 name = "data"
 version = "18"
+used-by = ["data"]
 
 [apps]
 [[apps.docker]]
 name = "nginx"
 image = "docker.io/library/nginx:latest"
-used-by = ["data"]
