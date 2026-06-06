@@ -1,14 +1,14 @@
-project-id = 'e8bbafd6-a7d6-4804-b652-b63a1e920b6a'
+project-id = 'c873347a-8e29-4690-8d0d-b190e375709b'
 repository-url = 'https://github.com/RichardDorian/test-pushnpray.git'
 server = 'http://localhost:4000/v1'
 
 [services]
 [[services.postgres]]
-name = 'data'
-version = '18'
+id = "data"
+version = "18"
 
 
 [apps]
 [[apps.docker]]
-name = 'nginx'
-image = 'docker.io/library/nginx:latest'
+name = "nginx"
+image = "docker.io/library/nginx:latest"
