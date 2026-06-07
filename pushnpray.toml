@@ -1,7 +1,6 @@
-project-id = '24ee39f9-9601-4ac8-96ff-a1ce23eac62c'
+project-id = 'fd2c7a27-8e47-46a0-bc01-622c12ac8c83'
 server = 'http://localhost:4000/v1'
 
-[apps]
 [[apps.staticweb]]
 name = "front"
 path = "test"

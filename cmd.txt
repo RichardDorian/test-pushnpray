@@ -1,3 +1,6 @@
 pushnpray login -u test@mail.com -p password --server http://localhost:4000/v1
+pushnpray login -u test@mail.com -t 52e8a106d91d46f39f59dfda480477af --server http://localhost:4000/v1
 
 pushnpray init -n test -r https://github.com/RichardDorian/test-pushnpray.git --server http://localhost:4000/v1
+
+pushnpray pat create --name CI --server http://localhost:4000/v1
