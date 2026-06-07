@@ -16,3 +16,7 @@ image = "docker.io/library/nginx:latest"
 [[apps.docker]]
 name = "test"
 image = "docker.io/library/ubuntu:latest"
+
+[[apps.staticweb]]
+name = "front"
+path = "test"
