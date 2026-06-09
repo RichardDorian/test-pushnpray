@@ -1,4 +1,4 @@
-project-id = '188303ee-885f-442d-8d7a-2f0a6fc0d275'
+project-id = 'a0fba6b0-7005-491e-9888-be9217d61e07'
 server = 'http://localhost:4000/v1'
 
 [apps]
