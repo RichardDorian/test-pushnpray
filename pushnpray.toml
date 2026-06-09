@@ -2,16 +2,16 @@ project-id = 'a0fba6b0-7005-491e-9888-be9217d61e07'
 server = 'http://localhost:4000/v1'
 
 [apps]
-[[apps.staticweb]]
+[[apps.docker]]
 name = "front"
-path = "test"
+image = "test"
 links = ['front2', 'front3']
 
-[[apps.staticweb]]
+[[apps.docker]]
 name = "front2"
-path = "test"
+image = "test"
 
-[[apps.staticweb]]
+[[apps.docker]]
 name = "front3"
-path = "test"
+image = "test"
 links = ['front2']
