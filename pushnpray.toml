@@ -1,6 +1,5 @@
-project-id = '3c67993e-a1bb-4f0e-8396-e5726f13d786'
+project-id = '30e8b908-b1f7-4872-818e-4f6a707e899f'
 server = 'http://localhost:4000/v1'
-update-strategy = 'rolling'
 
 [apps]
 [[apps.staticweb]]
@@ -16,4 +15,3 @@ path = "test"
 name = "front3"
 path = "test"
 links = ['front2']
-
