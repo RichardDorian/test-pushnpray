@@ -1,17 +1,7 @@
-project-id = 'a0fba6b0-7005-491e-9888-be9217d61e07'
+project-id = '3c67993e-a1bb-4f0e-8396-e5726f13d786'
 server = 'http://localhost:4000/v1'
 
 [apps]
 [[apps.docker]]
-name = "front"
-image = "test"
-links = ['front2', 'front3']
-
-[[apps.docker]]
-name = "front2"
-image = "test"
-
-[[apps.docker]]
-name = "front3"
-image = "test"
-links = ['front2']
+name = 'app1'
+image = 'nginx:latest'
