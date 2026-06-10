@@ -1,5 +1,6 @@
 project-id = '3c67993e-a1bb-4f0e-8396-e5726f13d786'
 server = 'http://localhost:4000/v1'
+update-strategy = 'rolling'
 
 [apps]
 [[apps.docker]]
