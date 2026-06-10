@@ -1,17 +1,12 @@
-project-id = '30e8b908-b1f7-4872-818e-4f6a707e899f'
+project-id = '1ccf30e1-af0e-4b53-ac94-c1b158e394c0'
 server = 'http://localhost:4000/v1'
 
 [apps]
-[[apps.staticweb]]
-name = "front"
-path = "test"
-links = ['front2', 'front3']
+[[apps.docker]]
+name = 'back'
+image = 'nginx:latest'
+allow-origin-from = 'front'
 
-[[apps.staticweb]]
-name = "front2"
-path = "test"
-
-[[apps.staticweb]]
-name = "front3"
-path = "test"
-links = ['front2']
+[[apps.docker]]
+name = 'front'
+image = 'nginx:latest'
