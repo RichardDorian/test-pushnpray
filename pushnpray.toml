@@ -3,6 +3,17 @@ server = 'http://localhost:4000/v1'
 update-strategy = 'rolling'
 
 [apps]
-[[apps.docker]]
-name = 'app1'
-image = 'nginx:latest'
+[[apps.staticweb]]
+name = "front"
+path = "test"
+links = ['front2', 'front3']
+
+[[apps.staticweb]]
+name = "front2"
+path = "test"
+
+[[apps.staticweb]]
+name = "front3"
+path = "test"
+links = ['front2']
+
